@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: chatapp
+specs:
+  containers:
+    - name: chatapp
+      image: bhoopendra/chatapp
+      ports: 
+        - containerPort: 80
